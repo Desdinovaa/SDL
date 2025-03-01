@@ -76,7 +76,7 @@ typedef int EGLNativeDisplayType;
 typedef int EGLNativePixmapType;
 typedef int EGLNativeWindowType;
 
-#elif defined(__WINSCW__) || defined(__SYMBIAN32__)  /* Symbian */
+#elif defined(__WINSCW__) || defined(__SYMBIAN32__)  /* Symbian */ || defined(SDL_PLATFORM_SWITCH)
 
 typedef int   EGLNativeDisplayType;
 typedef void *EGLNativePixmapType;

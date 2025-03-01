@@ -272,6 +272,7 @@
 #cmakedefine SDL_AUDIO_DRIVER_PSP 1
 #cmakedefine SDL_AUDIO_DRIVER_PS2 1
 #cmakedefine SDL_AUDIO_DRIVER_N3DS 1
+#cmakedefine SDL_AUDIO_DRIVER_SWITCH 1
 #cmakedefine SDL_AUDIO_DRIVER_QNX 1
 
 /* Enable various input drivers */
@@ -291,6 +292,7 @@
 #cmakedefine SDL_JOYSTICK_LINUX 1
 #cmakedefine SDL_JOYSTICK_MFI 1
 #cmakedefine SDL_JOYSTICK_N3DS 1
+#cmakedefine SDL_JOYSTICK_SWITCH 1
 #cmakedefine SDL_JOYSTICK_PS2 1
 #cmakedefine SDL_JOYSTICK_PSP 1
 #cmakedefine SDL_JOYSTICK_RAWINPUT 1
@@ -336,6 +338,7 @@
 #cmakedefine SDL_THREAD_PSP 1
 #cmakedefine SDL_THREAD_PS2 1
 #cmakedefine SDL_THREAD_N3DS 1
+#cmakedefine SDL_THREAD_SWITCH 1
 
 /* Enable various RTC systems */
 #cmakedefine SDL_TIME_UNIX 1
@@ -353,6 +356,7 @@
 #cmakedefine SDL_TIMER_PSP 1
 #cmakedefine SDL_TIMER_PS2 1
 #cmakedefine SDL_TIMER_N3DS 1
+#cmakedefine SDL_TIMER_SWITCH 1
 
 /* Enable various video drivers */
 #cmakedefine SDL_VIDEO_DRIVER_ANDROID 1
@@ -370,6 +374,7 @@
 #cmakedefine SDL_VIDEO_DRIVER_RISCOS 1
 #cmakedefine SDL_VIDEO_DRIVER_ROCKCHIP 1
 #cmakedefine SDL_VIDEO_DRIVER_RPI 1
+#cmakedefine SDL_VIDEO_DRIVER_SWITCH 1
 #cmakedefine SDL_VIDEO_DRIVER_UIKIT 1
 #cmakedefine SDL_VIDEO_DRIVER_VITA 1
 #cmakedefine SDL_VIDEO_DRIVER_VIVANTE 1
@@ -448,6 +453,7 @@
 #cmakedefine SDL_POWER_VITA 1
 #cmakedefine SDL_POWER_PSP 1
 #cmakedefine SDL_POWER_N3DS 1
+#cmakedefine SDL_POWER_SWITCH 1
 
 /* Enable system filesystem support */
 #cmakedefine SDL_FILESYSTEM_ANDROID 1
@@ -462,6 +468,7 @@
 #cmakedefine SDL_FILESYSTEM_PSP 1
 #cmakedefine SDL_FILESYSTEM_PS2 1
 #cmakedefine SDL_FILESYSTEM_N3DS 1
+#cmakedefine SDL_FILESYSTEM_SWITCH 1
 
 /* Enable system storage support */
 #cmakedefine SDL_STORAGE_STEAM @SDL_STORAGE_STEAM@
