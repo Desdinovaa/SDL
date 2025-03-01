@@ -2948,6 +2948,10 @@ elseif(NINTENDO_SWITCH)
     set(HAVE_SDL_POWER TRUE)
   endif()
 
+  set(SDL_TIME_SWITCH 1)
+  sdl_glob_sources("${SDL3_SOURCE_DIR}/src/time/switch/*.c")
+  set(HAVE_SDL_TIME TRUE)
+
   set(SDL_TIMER_SWITCH 1)
   sdl_glob_sources("${SDL3_SOURCE_DIR}/src/timer/switch/*.c")
   set(HAVE_SDL_TIMERS TRUE)
