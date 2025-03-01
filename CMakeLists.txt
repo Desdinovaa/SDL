@@ -2968,6 +2968,9 @@ elseif(NINTENDO_SWITCH)
     set(HAVE_OPENGL TRUE)
   endif()
 
+  sdl_glob_sources("${SDL3_SOURCE_DIR}/src/locale/switch/*.c")
+  set(HAVE_SDL_LOCALE TRUE)
+
   set(CMAKE_POSITION_INDEPENDANT_CODE ON)
   sdl_link_dependency(switch LIBS EGL stdc++ glapi drm_nouveau nx)
   target_compile_definitions(SDL3-static PRIVATE SDL_VIDEO_STATIC_ANGLE)
